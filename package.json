@@ -2,10 +2,14 @@
   "name": "rest-kitchen",
   "version": "1.0.0",
   "description": "A node.js api for the kitchen website",
+  "engines": {
+    "node": "10.15.3"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "start": "node app.js",
   "keywords": [
     "restful",
     "api",
