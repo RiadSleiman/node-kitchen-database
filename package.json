@@ -1,0 +1,26 @@
+{
+  "name": "rest-kitchen",
+  "version": "1.0.0",
+  "description": "A node.js api for the kitchen website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "backend",
+    "database",
+    "node"
+  ],
+  "author": "Riad Sleiman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  }
+}
